@@ -1,0 +1,390 @@
+/* @import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Mitr');
+@import url('https://fonts.googleapis.com/css?family=Hind|Mitr');
+@import url('https://fonts.googleapis.com/css?family=Hind|Mitr|Quicksand');
+@import url('https://fonts.googleapis.com/css?family=Heebo|Hind|Mitr|News+Cycle|Poiret+One|Quicksand|Raleway'); */
+
+.content {
+  display: flex;
+  height: 90vh;
+  padding: 50px;
+  background-color: white;
+  background-image: url('https://images.alphacoders.com/168/168031.jpg');
+  background-size: cover;
+  background-position-y: -75px;
+  background-repeat: no-repeat;
+  justify-content: flex-end;
+  align-items: center;
+}
+.content-text {
+  width: 600px;
+  padding: 10px;
+  border-radius: 10px;
+  height: 400px;
+}
+.text {
+  width: 100%;
+  height: 100%;
+  font-family: 'Segoe UI', Frutiger, 'Frutiger Linotype', 'Dejavu Sans',
+    'Helvetica Neue', Arial, sans-serif;
+  font-weight: 100;
+  font-size: 30px;
+}
+.know-me {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.about-jarvis {
+  display: flex;
+  width: 100vw;
+  height: 900px;
+  background-image: url('https://www.pixelstalk.net/download.php?url=https://www.pixelstalk.net/wp-content/uploads/2016/06/Black-Plain-Mobile-HD-Wallpaper.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  align-items: center;
+  justify-content: space-around;
+  box-shadow: 3px 11.4px 14.1px 2.2px #55535380;
+}
+.particles {
+  width: 1000px;
+  height: 400px;
+  background-image: url('https://cdn.dribbble.com/users/229857/screenshots/2148188/particle-wave.gif');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.hola {
+  color: white;
+  width: 500px;
+  height: 500px;
+
+  border-radius: 50%;
+  border: 4px solid rgba(255, 255, 255, 0.467);
+}
+
+.description {
+  width: 600px;
+  padding: 50px;
+  height: 400px;
+  background-color: black;
+  font-family: 'Segoe UI', Frutiger, 'Frutiger Linotype', 'Dejavu Sans',
+    'Helvetica Neue', Arial, sans-serif;
+  font-weight: 100;
+  color: rgb(255, 255, 255);
+  box-shadow: 3px 11.4px 14.1px 2.2px #00000080;
+  font-size: 20px;
+}
+.skills {
+  width: 100%;
+  height: 1500px;
+  padding: 20px;
+}
+
+.skills-contain {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.home {
+  width: 800px;
+  height: 100%;
+  margin: 0;
+}
+
+.content-img-text {
+  display: flex;
+  width: 800px;
+  height: 30%;
+}
+.home-img {
+  width: 500px;
+  height: 300px;
+  margin: 0;
+  background-image: url('https://besthqwallpapers.com/Uploads/25-7-2017/16896/thumb2-modern-design-4k-hallway-orange-room-bulb-lamps.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+h2 {
+  margin: 0;
+  margin-bottom: 10px;
+  font-family: 'Segoe UI', Frutiger, 'Frutiger Linotype', 'Dejavu Sans',
+    'Helvetica Neue', Arial, sans-serif;
+  font-weight: 300;
+}
+
+.home-text {
+  display: flex;
+  width: 500px;
+  padding: 10px;
+  font-family: 'Quicksand', sans-serif;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.home-text div {
+  font-size: 17px;
+}
+
+.home-conection {
+  width: 100%;
+  height: 100%;
+}
+.home-conection-img {
+  width: 100%;
+  height: 800px;
+  background-image: url('http://2.bp.blogspot.com/-6Zr1db6fuBQ/TfjLdgfzFEI/AAAAAAAAEpU/zKLugBeorCE/s1600/Best+Random+Wallz+-+FreeHD.Blogspot.Com++%2856%29.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.home-conection-text {
+  display: flex;
+  padding: 20px;
+  width: 100%;
+  height: 300px;
+  margin: 20px;
+  font-family: 'Segoe UI', Frutiger, 'Frutiger Linotype', 'Dejavu Sans',
+    'Helvetica Neue', Arial, sans-serif;
+  font-weight: 100;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.home-conection-text div {
+}
+
+.i-artifitial {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+.ia-text {
+  display: flex;
+  padding: 40px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: 'Segoe UI', Frutiger, 'Frutiger Linotype', 'Dejavu Sans',
+    'Helvetica Neue', Arial, sans-serif;
+  font-weight: 200;
+  font-size: 35px;
+  width: 50%;
+  height: 600px;
+}
+.ia-text div {
+  font-size: 23px;
+}
+.ia-text span {
+  font-size: 17px;
+}
+.ia-img {
+  width: 50%;
+  height: 46.5%;
+  background-image: url('https://espacio.fundaciontelefonica.com/wp-content/uploads/2016/03/inteligencia-artificial.jpg');
+  background-size: cover;
+  background-position-x: -600px;
+  background-repeat: no-repeat;
+}
+
+.devices {
+  width: 100%;
+  height: 700px;
+  padding: 20px;
+  background-color: rgb(26, 26, 26);
+}
+
+.desktops {
+  width: 650px;
+  height: 400px;
+  margin-bottom: 30px;
+  background-image: url('http://d3signfly.com/wp-content/uploads/2016/10/responsive_devices.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.desktops-text {
+  color: rgb(255, 255, 255);
+  display: flex;
+  width: 100%;
+  height: 250px;
+  font-family: 'Segoe UI', Frutiger, 'Frutiger Linotype', 'Dejavu Sans',
+    'Helvetica Neue', Arial, sans-serif;
+  font-weight: 200;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.desktops-text div {
+  font-size: 20px;
+}
+h1 {
+  font-size: 30px;
+  font-weight: 200;
+}
+
+/* some task */
+
+.some-tasks {
+  width: 100%;
+  height: 900px;
+}
+.tasks-title {
+  display: flex;
+  width: 100%;
+  height: 200px;
+  padding: 30px;
+  font-family: 'Segoe UI', Frutiger, 'Frutiger Linotype', 'Dejavu Sans',
+    'Helvetica Neue', Arial, sans-serif;
+  font-weight: 200;
+  font-size: 50px;
+  justify-content: center;
+  align-items: flex-end;
+}
+.content-tasks {
+  width: 100%;
+  height: 100%;
+  padding: 50px;
+}
+
+.album-content-1 {
+  height: 50%;
+  margin: 0;
+  padding: 0;
+
+  margin-bottom: 30px;
+}
+.album-content-2 {
+  height: 50%;
+}
+.column {
+  background-color: white;
+  padding: 0;
+}
+.column-md {
+  background-color: white;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 0;
+}
+.row-content {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.control-devices {
+  width: 100%;
+  height: 100%;
+  background-image: url('http://www.hisense.es/wp-content/uploads/2017/10/ndp-smartlaser-salon-1180x637.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.control-devices:hover {
+}
+.schedule {
+  width: 100%;
+  height: 100%;
+  background-image: url('https://wallpaperscraft.com/image/ipad_iphone_mac_gadgets_apple_101026_1920x1080.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.teacher {
+  width: 100%;
+  height: 100%;
+  background-image: url('https://applesencia.com/files/2015/04/wallpapers-wwdc-2015.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.security {
+  width: 100%;
+  height: 100%;
+  background-image: url('https://cdn.nanalyze.com/uploads/2017/03/Home-Security-Startup-Teaser.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.layout {
+  display: flex;
+  color: white;
+  width: 100%;
+  position: absolute;
+  height: 100%;
+  background-color: rgba(73, 73, 73, 0.501);
+  transform: scale(0.3);
+  transition: transform 300ms linear;
+  justify-content: center;
+  font-family: 'Segoe UI', Frutiger, 'Frutiger Linotype', 'Dejavu Sans',
+    'Helvetica Neue', Arial, sans-serif;
+  font-weight: 200;
+  font-size: 20px;
+  color: white;
+}
+
+.layout-text {
+  display: flex;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.layout-text:hover {
+  opacity: 1;
+}
+.layout:hover {
+  transform: scale(1);
+  background-color: rgba(15, 15, 16, 0.392);
+  border-radius: 0;
+}
+.layout:hover .layout-btn {
+  visibility: hidden;
+}
+
+.layout-btn {
+  display: flex;
+  position: absolute;
+  top: 100px;
+  justify-content: center;
+  align-items: center;
+  font-size: 100px;
+}
+
+.updates {
+  display: flex;
+  width: 100%;
+  padding: 50px;
+  height: 700px;
+  justify-content: center;
+  align-items: flex-end;
+}
+.updates-text {
+  color: rgb(0, 0, 0);
+  justify-content: center;
+  font-family: 'Segoe UI', Frutiger, 'Frutiger Linotype', 'Dejavu Sans',
+    'Helvetica Neue', Arial, sans-serif;
+  font-weight: 200;
+  font-size: 35px;
+}
+.footer {
+  width: 100%;
+  height: 500px;
+  background-color: rgb(34, 31, 31);
+}
+.baby-jarvis {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  font-size: 25px;
+  justify-content: center;
+  align-items: center;
+}
+.baby-jarvis-img {
+  width: 200px;
+  height: 200px;
+  background-image: url('https://cdn.dribbble.com/users/616823/screenshots/3682824/flourish.gif');
+  background-size: cover;
+  background-position-x: -35px;
+  background-repeat: no-repeat;
+}
