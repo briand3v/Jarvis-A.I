@@ -1,0 +1,19 @@
+<div class="chatList" id="style-2">
+
+  <ul>
+    <li class="list-group-item">
+      <img src="https://cdn.dribbble.com/users/616823/screenshots/3682824/flourish.gif" alt="">
+
+      <div>
+        <div class="message">
+          <strong>
+            Hi, I am Jarvis. What can I do for you? :)
+          </strong>
+        </div>
+
+      </div>
+
+    </li>
+    <app-message-item *ngFor="let msg of messages" [message]="msg"></app-message-item>
+  </ul>
+</div>

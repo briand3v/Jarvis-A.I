@@ -1,0 +1,11 @@
+.chatControl {
+  display: flex;
+  width: 800px;
+  height: 100px;
+  align-items: center;
+  justify-content: center;
+}
+input {
+  width: 400px;
+  margin-right: 10px;
+}

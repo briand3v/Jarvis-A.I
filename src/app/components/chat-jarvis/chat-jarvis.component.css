@@ -1,0 +1,45 @@
+.chat-jarvis {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  background-color: wheat;
+  justify-content: space-between;
+  background: -webkit-linear-gradient(to right, #00f260, #0575e6);
+  background: linear-gradient(to right, #00f260, #0575e6);
+}
+
+.content-chat {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  z-index: 1;
+}
+.jarvis-card {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  z-index: 2;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+particles {
+  position: absolute;
+  z-index: 0;
+}
+.img-chatbot {
+  width: 100px;
+  height: 120px;
+  background-image: url('http://icons.iconarchive.com/icons/scafer31000/bubble-circle-2/1024/Message-icon.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.info {
+  width: 50%;
+  height: 50%;
+  background: -webkit-linear-gradient(to right, #abbaab, #ffffff);
+  background: linear-gradient(to right, #abbaab, #ffffff);
+  border-radius: 20px;
+}

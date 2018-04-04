@@ -1,0 +1,6 @@
+nav {
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  box-shadow: 1px 7px 20px 0px #dcd7d764;
+}
