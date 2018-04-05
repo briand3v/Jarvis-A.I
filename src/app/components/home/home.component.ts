@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { FormArray, FormBuilder, FormGroup } from '@angular/forms';
+import { Comment } from '../../models/comment';
 
 @Component({
   selector: 'app-home',
@@ -6,6 +8,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
+  heroForm: FormGroup;
+
   style: object = {
     position: 'relative',
     width: '100%',
@@ -16,80 +20,30 @@ export class HomeComponent implements OnInit {
   params: object = {};
   width: Number = 100;
   height: Number = 100;
-  constructor() {}
+  constructor(private fb: FormBuilder) {
+    this.createForm();
+  }
 
-  ngOnInit() {
-    this.myStyle = {
-      position: 'fixed',
-      width: '100%',
-      height: '100%',
-      'z-index': -1,
-      top: 0,
-      left: 0,
-      right: 0,
-      bottom: 0
-    };
+  ngOnInit() {}
 
-    this.params = {
-      particles: {
-        number: {
-          value: 200
-        },
-        color: {
-          value: '#ffffff'
-        },
-        shape: {
-          type: 'circle',
-          stroke: {
-            width: 2,
-            color: '#000000'
-          }
-        },
-        move: {
-          enable: true,
-          speed: 8,
-          direction: 'none',
-          random: true,
-          straight: false,
-          out_mode: 'out',
-          bounce: true,
-          attract: {
-            enable: false,
-            rotateX: 600,
-            rotateY: 200
-          }
-        },
-        line_linked: {
-          enable: true,
-          distance: 150,
-          color: '#ffffff',
-          opacity: 1,
-          width: 1
-        }
-      },
-      interactivity: {
-        detect_on: 'canvas',
-        events: {
-          onhover: {
-            enable: true,
-            mode: 'bubble'
-          },
-          onclick: {
-            enable: true,
-            mode: 'push'
-          },
-          resize: true
-        },
-        modes: {
-          bubble: {
-            distance: 100,
-            size: 10,
-            duration: 1,
-            opacity: 1,
-            speed: 3
-          }
-        }
-      }
+  createForm() {
+    this.heroForm = this.fb.group({
+      email: '',
+      comment: ''
+    });
+  }
+
+  send() {
+    const formSend = this.prepareForm();
+    console.log(formSend);
+  }
+
+  prepareForm(): Comment {
+    const formModel = this.heroForm.value;
+    const saveInfo: Comment = {
+      email: formModel.email,
+      comment: formModel.comment
     };
+    return saveInfo;
   }
 }

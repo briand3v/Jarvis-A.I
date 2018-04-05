@@ -5,5 +5,6 @@
 
 export const environment = {
   production: false,
-  token: '0fa2b043ed6147948e05b596eef3f21b'
+  token: '0fa2b043ed6147948e05b596eef3f21b',
+  url: 'http://localhost:8000/'
 };

@@ -1,0 +1,16 @@
+<form [formGroup]="userForm" #form="ngForm" (ngSubmit)="send()" class="example-form">
+  <div class="example-container">
+    <mat-form-field>
+      <div class="form-group">
+        <input matInput formControlName="username" placeholder="Username or Email">
+      </div>
+    </mat-form-field>
+
+    <mat-form-field>
+      <div class="form-group">
+        <input type="password" formControlName="password" matInput placeholder="Password">
+      </div>
+    </mat-form-field>
+  </div>
+  <input type="submit" value="Send">
+</form>

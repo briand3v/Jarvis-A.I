@@ -13,8 +13,7 @@
   </div>
 </div>
 <div class="about-jarvis">
-
-  <div class="hola">
+  <!-- <div class="hola">
     <particles [style]="style" [width]="width" [height]="height" [params]="params">
 
     </particles>
@@ -29,10 +28,10 @@
     <div>
 
     </div>
-  </div>
+  </div> -->
 </div>
 
-<div class="skills">
+<!-- <div class="skills">
   <div class="skills-contain">
 
     <div class="home">
@@ -87,7 +86,7 @@
 
   </div>
 
-</div>
+</div> -->
 
 <!-- <div class=" some-tasks">
   <div class="tasks-title">
@@ -168,15 +167,16 @@
 </div>
 <div class="footer">
   <div class="form">
-    <form>
+    <form [formGroup]="heroForm" #form="ngForm" (ngSubmit)="send()">
       <div class="form-group">
         <label for="">Correo</label>
-        <input class="form-control" type="text" placeholder="correo">
+        <input class="form-control" formControlName="email" type="text" placeholder="correo">
       </div>
       <div class="form-group">
         <label for="">comentario</label>
-        <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
+        <textarea class="form-control" formControlName="comment" id="exampleTextarea" rows="3"></textarea>
       </div>
+      <input type="submit" class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored" value="Send">
     </form>
   </div>
 </div>

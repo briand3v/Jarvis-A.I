@@ -20,8 +20,19 @@ export class NavbarScrollDirective {
   private isScroll() {
     if (window.pageYOffset === 0) {
       this.el.nativeElement.style.backgroundColor = 'transparent';
+      this.el.nativeElement.querySelector('span').style.color = 'white';
+      const tagA = this.el.nativeElement.querySelectorAll('a');
+      tagA.forEach(a => {
+        a.style.color = 'white';
+      });
     } else {
-      this.el.nativeElement.style.backgroundColor = 'rgba(255, 255, 255, 0.59)';
+      this.el.nativeElement.style.backgroundColor =
+        'rgba(255, 255, 255, 0.912)';
+      this.el.nativeElement.querySelector('span').style.color = 'black';
+      const tagA = this.el.nativeElement.querySelectorAll('a');
+      tagA.forEach(a => {
+        a.style.color = 'black';
+      });
     }
   }
 }

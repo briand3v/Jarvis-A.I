@@ -2,15 +2,13 @@
   display: flex;
   width: 100vw;
   height: 100vh;
-
-  background: -webkit-linear-gradient(to right, #fc466b, #3f5efb);
-  background: linear-gradient(to right, #fc466b, #3f5efb);
+  background: -webkit-linear-gradient(to right, #fc4a1a, #f7b733);
+  background: linear-gradient(to right, #fc4a1a, #f7b733);
   justify-content: flex-end;
   align-items: center;
 }
 .content-text {
   width: 600px;
-
   border-radius: 10px;
   height: 400px;
 }
@@ -33,12 +31,13 @@
   display: flex;
   width: 100vw;
   height: 900px;
-  background-image: url('https://www.pixelstalk.net/download.php?url=https://www.pixelstalk.net/wp-content/uploads/2016/06/Black-Plain-Mobile-HD-Wallpaper.jpg');
+  /* background-image: url('https://www.pixelstalk.net/download.php?url=https://www.pixelstalk.net/wp-content/uploads/2016/06/Black-Plain-Mobile-HD-Wallpaper.jpg');
   background-size: cover;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
   align-items: center;
   justify-content: space-around;
   box-shadow: 3px 11.4px 14.1px 2.2px #55535380;
+  z-index: 0;
 }
 .particles {
   width: 1000px;
@@ -56,7 +55,6 @@
 }
 .description {
   width: 600px;
-
   height: 400px;
   background-color: black;
   font-family: 'Segoe UI', Frutiger, 'Frutiger Linotype', 'Dejavu Sans',
@@ -76,7 +74,6 @@
 }
 .content-img-text {
   display: flex;
-
   width: 800px;
   height: 30%;
 }
@@ -98,7 +95,6 @@ h2 {
 .home-text {
   display: flex;
   width: 500px;
-
   font-family: 'Quicksand', sans-serif;
   justify-content: center;
   flex-direction: column;
@@ -120,10 +116,8 @@ h2 {
 }
 .home-conection-text {
   display: flex;
-
   width: 100%;
   height: 300px;
-
   font-family: 'Segoe UI', Frutiger, 'Frutiger Linotype', 'Dejavu Sans',
     'Helvetica Neue', Arial, sans-serif;
   font-weight: 100;
@@ -131,20 +125,17 @@ h2 {
   justify-content: center;
   align-items: center;
 }
-
 .new {
   width: 100vw;
   height: 300px;
   background-color: red;
 }
-
 .i-artifitial {
   display: flex;
   width: 100%;
 }
 .ia-text {
   display: flex;
-
   justify-content: center;
   align-items: center;
   flex-direction: column;
@@ -171,8 +162,8 @@ h2 {
 }
 .devices {
   width: 100%;
-
-  background-color: rgb(26, 26, 26);
+  background: -webkit-linear-gradient(to right, #000000, #434343);
+  background: linear-gradient(to right, #000000, #434343);
 }
 .desktops {
   width: 650px;
@@ -199,7 +190,6 @@ h2 {
 .desktops-text div {
   font-size: 20px;
 }
-
 /* some task */
 .some-tasks {
   width: 100vw;
@@ -209,7 +199,6 @@ h2 {
   display: flex;
   width: 100%;
   height: 200px;
-
   font-family: 'Segoe UI', Frutiger, 'Frutiger Linotype', 'Dejavu Sans',
     'Helvetica Neue', Arial, sans-serif;
   font-weight: 200;
@@ -224,7 +213,6 @@ h2 {
 .album-content-1 {
   height: 50%;
   margin: 0;
-
   margin-bottom: 30px;
 }
 .album-content-2 {
@@ -241,7 +229,6 @@ h2 {
 .row-content {
   width: 100%;
   height: 100%;
-
   margin: 0;
 }
 .control-devices {
@@ -340,8 +327,8 @@ a {
   display: flex;
   width: 100%;
   height: 500px;
-  background: -webkit-linear-gradient(to right, #780206, #061161);
-  background: linear-gradient(to right, #780206, #061161);
+  background: -webkit-linear-gradient(to right, #1a2a6c, #b21f1f, #fdbb2d);
+  background: linear-gradient(to right, #1a2a6c, #b21f1f, #fdbb2d);
   justify-content: center;
   align-items: center;
   color: white;
@@ -374,7 +361,6 @@ a {
 }
 .email {
   display: flex;
-
   flex-direction: column;
 }
 .comment {
