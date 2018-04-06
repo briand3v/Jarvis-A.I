@@ -2,10 +2,14 @@
   <div class="example-container">
     <mat-form-field>
       <div class="form-group">
-        <input matInput formControlName="username" placeholder="Username or Email">
+        <input matInput formControlName="username" placeholder="Username">
       </div>
     </mat-form-field>
-
+    <mat-form-field>
+      <div class="form-group">
+        <input type="text" formControlName="email" matInput placeholder="Email">
+      </div>
+    </mat-form-field>
     <mat-form-field>
       <div class="form-group">
         <input type="password" formControlName="password" matInput placeholder="Password">

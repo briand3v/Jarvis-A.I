@@ -12,17 +12,26 @@ export class AuthService {
   private baseUrl: String = environment.url;
   constructor(private http: HttpClient) {}
 
-  createUser(user: User) {
+  createUser(user: User): Observable<any> {
+    const json = JSON.stringify(user);
+    const data = 'data=' + json;
+
     return this.http
-      .post(`${this.baseUrl}` + 'singIn', user, { headers: this.getHeaders() })
-      .pipe(tap(res => console.log(res)));
+      .post(`${this.baseUrl}` + 'signIn', data, {
+        headers: this.getHeaders(),
+        responseType: 'json'
+      })
+      .pipe(
+        tap((res: Response) => {
+          console.log(res);
+        })
+      );
   }
   getHeaders() {
     const headers = new HttpHeaders({
-      'Access-Control-Allow-Origin': '*',
-      'Content-type': 'application/json',
-      'Access-Control-Allow-Methods': 'GET, POST, PATCH, PUT, DELETE, OPTIONS',
-      'Access-Control-Allow-Headers': 'Origin, Content-Type, X-Auth-Token'
+      'Content-Type': 'application/x-www-form-urlencoded',
+      Accept: 'text/plain',
+      'Access-Control-Allow-Origin': '*'
     });
 
     return headers;

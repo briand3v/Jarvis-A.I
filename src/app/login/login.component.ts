@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { FormArray, FormBuilder, FormGroup } from '@angular/forms';
 import { AuthService } from '../services/auth.service';
+import { User } from '../models/user';
 
 @Component({
   selector: 'app-login',
@@ -18,12 +19,13 @@ export class LoginComponent implements OnInit {
   createForm() {
     this.userForm = this.fb.group({
       username: '',
+      email: '',
       password: ''
     });
   }
 
   send() {
-    const user = this.userForm.value;
+    const user: User = this.userForm.value;
     console.log(user);
     this.authService.createUser(user).subscribe(data => console.log(data));
   }
